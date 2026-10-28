@@ -1,0 +1,70 @@
+body {
+  background: #f2f0e9;
+  color: #20332d;
+  font-family: system-ui, sans-serif;
+}
+.game-shell {
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 56px 20px;
+}
+.eyebrow {
+  letter-spacing: 0.15em;
+  font-size: 0.72rem;
+  font-weight: 800;
+  color: #587266;
+}
+h1 {
+  font-size: clamp(2.8rem, 7vw, 4.4rem);
+  letter-spacing: -0.06em;
+  line-height: 1.05;
+  margin: 20px 0;
+}
+h1 em {
+  font-family: Georgia, serif;
+  font-weight: 400;
+  color: #477c58;
+}
+.card {
+  border: 1px solid #dde2d6;
+  border-radius: 22px;
+  box-shadow: 0 12px 50px #20332d09;
+  margin-top: 30px;
+}
+.card-body {
+  padding: 28px;
+}
+.btn-primary {
+  background: #285d43;
+  border-color: #285d43;
+}
+.btn {
+  white-space: nowrap;
+}
+.form-control {
+  font-size: 1.3rem;
+}
+h2 {
+  font-size: 1.1rem;
+}
+h2 span {
+  color: #6e7a72;
+}
+.history {
+  padding-left: 24px;
+  max-height: 320px;
+  overflow: auto;
+}
+.history li {
+  padding: 9px;
+  border-bottom: 1px solid #eee;
+}
+.history li span {
+  margin-left: 20px;
+  color: #587266;
+}
+footer {
+  font-size: 0.78rem;
+  color: #6e7a72;
+  margin-top: 20px;
+}
